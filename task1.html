@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TASK 1</title>
+    <style>
+       body{
+              background:#F08080;
+       }
+       ul {
+         list-style-type: none;
+         margin-left: 100px;
+         margin-right:200px;
+         padding: 0px;
+         overflow: hidden;
+         background-color: lightgray;
+         }
+
+       li {
+         float: left;
+          }
+
+      li a {
+        display: block;
+        color: red;
+        font-size:20px;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin-left:250px;
+
+          }
+      section{
+            
+            background:#FFDEAD;
+      }
+
+     header {
+        padding:0px;
+        margin:0px;
+           }
+     .imageclass{
+         padding-top:20px;
+         padding-bottom:20px;
+         padding-left:200px;
+         padding-right:100px;
+         margin-left:100px;
+         margin-right:100px;
+     }
+     .contactus{
+          border-style:dotted;
+          border-width:thick;
+          border-color:#ff6666;
+          border-radius: 4px;
+          padding-left:0px;
+          margin-left:390px;
+          margin-right:400px;
+     }
+     h2{
+         /*padding-left:50px;*/
+          color:#ff6666;
+          font-size:30px;
+          margin-left:40%;
+     }
+     label{
+          font-family: sans-serif;
+          font-size:20px;
+          color:#ff6666;
+          float:left;
+          padding-right:20px;
+          margin-left:10px;
+     }
+     input[type=text],[type=email]{
+          width:500px;
+          height:20px;
+          margin-left:10px;
+          padding-left:10px;
+          background-color:#ff9999;
+          border-style:solid;
+          border-color:#ff6666;
+          border-radius: 4px;
+     }
+     #subject{
+          width:500px;
+          height:100px;
+          background-color:#ff9999;
+          border: 2px;
+          border-color:#ff6666;
+          border-style:solid;
+          border-radius: 4px;
+          padding-left:10px;
+          resize: none;
+     }
+     input[type=submit]{
+          width:100px;
+          height:30px;
+          background-color:#ff6666;
+          border: 2px;
+          border-color:#ff6666;
+          border-style:solid;
+          border-radius: 4px;
+          margin-left:75%;
+          color:#ff9933;
+          font-size:18px;
+          margin-bottom:10px;
+     }
+    </style>
+</head>
+<body>
+    <nav>
+     <ul>
+        <li><a href="#" target="_blank">Home</a><li>
+        <li><a href="#" target="_blank">Categories</a></li>
+        <li><a href="#" target="_blank">Contacts</a></<li>
+     </ul>
+    </nav>
+    <section >
+       <header>
+           <img src="https://data.whicdn.com/images/330102865/original.jpg" alt="ERROR DISPLAYING PHOTO" width="100%" height="300px"/>
+        </header>
+         <section>
+           <div class="imageclass">
+             <img src="http://img0.joyreactor.com/pics/post/full/anime-art-girls-cute-1380995.png" alt="ROR DISPLAYING PHOTO" width="300px" height="300px"/>
+             <img src="https://tse4.mm.bing.net/th?id=OIP.w7DJTD-lZ1vudtzCUi9XnwHaEK&pid=Api&P=0&w=282&h=159" alt="ROR DISPLAYING PHOTO" width="300px" height="300px"/>
+             <img src="https://i.pinimg.com/736x/1f/5c/af/1f5caf04e540f91908e1c391564980d4.jpg" alt="ROR DISPLAYING PHOTO" width="300px" height="300px"/>
+             <img src="https://tse1.explicit.bing.net/th?id=OIP.AWx1MTdWktlgLewJ1eHxHwHaFS&pid=Api&P=0&w=241&h=173" alt="ROR DISPLAYING PHOTO" width="300px" height="300px"/>
+             <img src="https://tse1.mm.bing.net/th?id=OIP.yCo7CCk8_WwnQFt-tQ2HOgHaIo&pid=Api&P=0&w=300&h=300" alt="ROR DISPLAYING PHOTO" width="300px" height="300px"/>
+             <img src="https://tse4.mm.bing.net/th?id=OIP.cgKspgG14yR4zjG_F3HIVQHaI4&pid=Api&P=0&w=300&h=300" alt="ROR DISPLAYING PHOTO" width="300px" height="300px"/>
+           </div>
+           <div class="contactus">
+           <h2><b>Contact us</b></h2>
+           <from action="" method="post">
+              <label for="Username">Name: </label>
+              <input type="text" id="Username" placeholder="name" class="inputclass"/>
+              <br/> <br/>
+              <label for="Email">Email: </label>
+              <input type="email" id="Email" placeholder="**********@yahoo.com" class="inputclass"/>
+              <br/> <br/>
+              <label for="Address">Address: </label>
+              <input type="text" id="Address" placeholder="address" class="inputclass"/>
+              <br/> <br/>
+              <label for="Message">Message: </label>
+              <textarea id="subject" name="subject" placeholder="Comment.."></textarea>
+              <br/> <br/>
+              <input type="submit" value="Submit"/>
+              </from>
+           </div>
+         </section>
+    </section>
+
+</body>
+</html>
